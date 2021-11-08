@@ -114,9 +114,6 @@
     <ClCompile Include="Prg5-5.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Prg5-7.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -178,6 +175,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Rectangle.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
