@@ -173,7 +173,11 @@
     <ClCompile Include="Prg6-9.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Prg7-1.cpp" />
+    <ClCompile Include="Prg7-1%28Class%29.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Prg7-4%28Class%29.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
     <ClCompile Include="문제.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -307,6 +311,7 @@
   <ItemGroup>
     <ClInclude Include="Circle.h" />
     <ClInclude Include="fxf.h" />
+    <ClInclude Include="Rectangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

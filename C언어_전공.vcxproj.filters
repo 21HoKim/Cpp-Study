@@ -168,10 +168,16 @@
     <ClCompile Include="Prg6-24.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Prg7-1.cpp">
+    <ClCompile Include="Circle.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Circle.cpp">
+    <ClCompile Include="Prg7-1%28Class%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Prg7-4%28Class%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -188,6 +194,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Circle.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
