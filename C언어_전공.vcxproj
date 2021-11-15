@@ -176,10 +176,13 @@
     <ClCompile Include="Prg7-1%28Class.Circle%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Prg7-15.cpp" />
+    <ClCompile Include="Prg7-15.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Prg7-4%28Class.Rectangle%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Prg8-1%28array%29.cpp" />
     <ClCompile Include="Rectangle.cpp" />
     <ClCompile Include="time.cpp" />
     <ClCompile Include="문제.cpp">

@@ -36,7 +36,7 @@ void Time::normalize()
 	}
 	if (minutes > 59) {
 		int temp = minutes / 60;
-		minutes = minutes % 60;
+		minutes = minutes % 60;;
 		hours = hours + temp;
 	}
 	if (hours > 23) {
