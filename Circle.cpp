@@ -5,21 +5,21 @@ using namespace std;
 //매개변수가 똑같은거 2개 만들면 안됨 -> 컴파일러가 찾지 못함(double, int)두개는 구분함
 Circle::Circle() 
 	:radius(0){
-	cout << "기본생성자 사용" << endl;
+	//cout << "기본생성자 사용" << endl;
 	count++;
 }
 Circle::Circle(double rad) 
 	: radius(rad) { //rad로 받은 값을 radius에 넣음
-	cout << "매개변수이용하는 생성자 사용" << endl;
+	//cout << "매개변수이용하는 생성자 사용" << endl;
 	count++;
 }
 Circle::Circle(const Circle& cir) 
 	: radius(cir.radius) {
-	cout << "복사 생성자 사용" << endl;
+	//cout << "복사 생성자 사용" << endl;
 	count++;
 }
 Circle::~Circle() {
-	cout << "소멸자 사용" << endl;
+	//cout << "소멸자 사용" << endl;
 	count--;
 }
 
