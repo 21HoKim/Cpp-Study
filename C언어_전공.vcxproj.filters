@@ -225,6 +225,9 @@
     <ClCompile Include="Person.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Prg10-1~10%28한줄입력,동적할당,array관련함수%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="number.txt">
